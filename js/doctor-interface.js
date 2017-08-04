@@ -1,16 +1,21 @@
-var Symptom = require('./../js/docor.js').doctorModule;
+var Symptom = require('./../js/doctor.js').doctorModule;
 
-var displayDoctor = function(id, doctorData) {
-  $('.showDoctor').text("The best doctor(s) to see for your reported symptom of:" + sx + " is " + doctorData + ".");
+var displayDoctor = function(sx, doctorData) {
+  $('.show-doctor').append('<li class="list-group-item">' + data.practices.name + '</li>');
 };
 
 $(document).ready(function() {
   var currentSymptomObject = new Symptom();
   $('#find-doctor').click(function() {
     var sx = $('#symptom-name').val();
-    var location = parseInt($('#location').val());
+    var latitude = parseInt($('#latitude').val());
+    var longitude = parseInt($('#longitude').val());
     var distance = parseInt($('#distance').val());
     $('#symptom-name').val("");
+    $('#latitude').val("");
+    $('longitude').val("");
+
+
     currentSymptomObject.getDoctor(sx);
   });
 
