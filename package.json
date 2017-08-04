@@ -1,0 +1,23 @@
+{
+  "name": "doctor_lookup",
+  "version": "1.0.0",
+  "description": "tool for finding provider by Pt Sx profile",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Littlejoel29/doctor-search.git"
+  },
+  "author": "Joel Bakken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Littlejoel29/doctor-search/issues"
+  },
+  "homepage": "https://github.com/Littlejoel29/doctor-search#readme"
+}
