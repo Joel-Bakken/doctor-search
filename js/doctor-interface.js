@@ -7,7 +7,7 @@ var displayDoctor = function(id, doctorData) {
 $(document).ready(function() {
   var currentSymptomObject = new Symptom();
   $('#find-doctor').click(function() {
-    var sx = $('#symptom-name').val());
+    var sx = $('#symptom-name').val();
     var location = parseInt($('#location').val());
     var distance = parseInt($('#distance').val());
     $('#symptom-name').val("");
