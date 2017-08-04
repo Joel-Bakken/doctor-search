@@ -4,9 +4,9 @@ var displayDoctor = function(sx, doctorData) {
   $('.show-doctor').append('<li class="list-group-item">' + data.practices.name + '</li>');
 };
 
-$(document).ready(function() {
+$(document).ready(function(sx, latitude, longitude, distance) {
   var currentSymptomObject = new Symptom();
-  $('#find-doctor').click(function() {
+  $('form#find-doctor').click(function() {
     var sx = $('#symptom-name').val();
     var latitude = parseInt($('#latitude').val());
     var longitude = parseInt($('#longitude').val());
