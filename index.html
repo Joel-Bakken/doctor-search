@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Find A Doctor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find A Doctor</h1>
+      <div class="form-group">
+        <label for="symptom">Enter your main symptom:</label>
+        <input id="symptom" type="text" required>
+        <label for="latitude">Enter your location info in latitude in decimal format (e.g. 37.773):</label>
+        <input id="latitude" type="number" required>
+        <label for="longitude">Enter your location info in longitude in decimal format (e.g. -122.413):</label>
+        <input id="longitude" type="number" required>
+        <a href="http://en.mygeoposition.com">Click here to get your latitude and longitude...</a>
+        <label for="distance">Enter the distance you are willing to travel:</label>
+        <input id="distance" type="number" required>
+        <button class="button" id="find-doctor" type="submit">Submit</button>
+      </div>
+      <div class="showresults"></div>
+
+    </div>
+  </body>
+</html>

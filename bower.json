@@ -1,0 +1,21 @@
+{
+  "name": "doctor_lookup",
+  "description": "tool for finding provider by Pt Sx profile",
+  "main": "gulpfile.js",
+  "authors": [
+    "Joel Bakken"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
