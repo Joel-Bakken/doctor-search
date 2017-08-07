@@ -13,8 +13,8 @@ $(document).ready(function(sx, latitude, longitude, distance) {
     var distance = parseInt($('#distance').val());
     $('#symptom-name').val("");
     $('#latitude').val("");
-    $('longitude').val("");
-
+    $('#longitude').val("");
+    $('#distance').val("");
 
     currentSymptomObject.getDoctor(sx);
   });
