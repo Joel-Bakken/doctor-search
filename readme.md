@@ -10,7 +10,15 @@ _This program allows the user to search for a doctor using the user's location a
 
 ## Setup/Installation Requirements
 
-_There is no complex setup needed for this program. Just download the application from Github and open the index.html file in your favorite web browser._
+_Download the program from github onto your desktop. Using the build in terminal program go into the directory that contains the program. e.g. cd doctor-search/  and then follow these steps:_
+
+### Please type the following commands:
+_$ npm install_
+_$ bower install_
+_$ gulp build_
+_$ gulp serve_
+
+_The program should automatically load in your primary web browser_
 
 ## Known Bugs
 
