@@ -13,10 +13,10 @@ _This program allows the user to search for a doctor using the user's location a
 _Download the program from github onto your desktop. Using the build in terminal program go into the directory that contains the program. e.g. cd doctor-search/  and then follow these steps:_
 
 ### Please type the following commands:
-_$ npm install_
-_$ bower install_
-_$ gulp build_
-_$ gulp serve_
+*_$ npm install_
+*_$ bower install_
+*_$ gulp build_
+*_$ gulp serve_
 
 _The program should automatically load in your primary web browser_
 
